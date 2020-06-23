@@ -9,8 +9,8 @@ $(document).ready(function () {
 
 let getDropdown  = () => fetch('https://raw.githubusercontent.com/xworkzodc/newsfeed/master/mailSender.json').then(data => data.json());
 
- function getDropdownDetails(stringValue){
-	var data=getDropdown();
+async function getDropdownDetails(stringValue){
+	var data=await getDropdown();
 	if(stringValue == "NewsFeed"){
 		$("#imgURL").attr("value",data.News_Feed);
 		$("#newsImg").attr("src",data.News_Feed).load(function(){
