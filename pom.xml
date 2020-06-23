@@ -170,6 +170,13 @@
       <version>${appengine.target.version}</version>
       <scope>test</scope>
     </dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.appengine/appengine-maven-plugin -->
+<dependency>
+    <groupId>com.google.appengine</groupId>
+    <artifactId>appengine-maven-plugin</artifactId>
+    <version>1.9.80</version>
+</dependency>
+
 	</dependencies>
 
 	<build>
