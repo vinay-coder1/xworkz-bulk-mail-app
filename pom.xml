@@ -12,7 +12,7 @@
 
 	<name>xworkz-bulk-mail-app Maven Webapp</name>
 	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
+	<url></url>
 
 	<parent>
 		<groupId>com.google.cloud.samples</groupId>
@@ -172,6 +172,12 @@
 			<version>${appengine.target.version}</version>
 			<scope>test</scope>
 		</dependency>
+		 <dependency>
+           <groupId>com.google.appengine</groupId>
+           <artifactId>appengine-tools-sdk</artifactId>
+           <version>${appengine.target.version}</version>
+           <scope>test</scope>
+       </dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.appengine/appengine-maven-plugin -->
 		<dependency>
 			<groupId>com.google.appengine</groupId>
