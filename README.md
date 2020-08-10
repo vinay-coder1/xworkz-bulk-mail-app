@@ -1,1 +1,0 @@
-# xworkz-bulk-mail-app
